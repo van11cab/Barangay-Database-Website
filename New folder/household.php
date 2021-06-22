@@ -105,14 +105,23 @@ function test_input($data){
 				<a href="dl1.html"><span class="las la-receipt"></span>
 				<span>Downloadable Files</span></a>
 			</li>
-			
-			<li>
-				<a href="contact1.html"><span class="las la-user-circle"></span>
-				<span>Contact Us</span></a>
-			</li>
-			
+					
 		</ul>
+	
+		<ul style="position:absolute; bottom:0; ">
+			<li>
+				<a><span><em><b>Contact Us</b></em>
+				
+					<p style="color:white;	font-family: 'Poppins', sans-serif;font-size:60%;">
+						Phone number - 09X-XXX-XXXX<br>
+						Landline - XXX-XXXX<br>
+						Email- XXXXX@gmail.com<br>
+					</p>
+				</span></a>
+			</li>
+			</ul>
 		</div>
+
 	</div>	
 	
 	<div class="main-content">
@@ -182,7 +191,7 @@ function test_input($data){
 						</select>
 											
 						<div class="inputBox">
-							<input type="text" placeholder="Monthly Household Contribution"  name="h_contribution">
+							<input type="number" placeholder="Monthly Household Contribution"  name="h_contribution">
 						</div>
 						
 						<div class="inputBox">
