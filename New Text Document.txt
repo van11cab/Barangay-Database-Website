@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>127</title>
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue
+	-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<link rel="stylesheet" href="household.css">
+	 <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+	<input type="checkbox" id="nav-toggle">
+	<div class= "sidebar">
+		<div class="sidebar-brand">
+			<h2><span class="lab la-accusoft"></span> <span>Barangay Ambot</span></h2>
+		</div>
+		
+		<div class = "sidebar-menu">
+		<ul>
+			<li>  
+				<a href="index.html" class="active"><span class="las la-igloo"></span>
+				<span>Dashboard	</span></a>
+			</li>
+		
+			<li>
+				<a href="registration.html"><span class="las la-laptop"></span>
+				<span>Registration</span></a>
+			</li>
+			
+			<li>
+				<a href="household.html"><span class="las la-home"></span>
+				<span>Household</span></a>
+			</li>
+			
+			<li>
+				<a href="profile1.html"><span class="las la-users"></span>
+				<span>Profile Page</span></a>
+			</li>
+			
+			<li>
+				<a href=""><span class="las la-clipboard-list"></span>
+				<span>Barangay Information</span></a>
+			</li>
+		
+			<li>
+				<a href="dl1.html"><span class="las la-receipt"></span>
+				<span>Downloadable Files</span></a>
+			</li>
+			
+			<li>
+				<a href="contact1.html"><span class="las la-user-circle"></span>
+				<span>Contact Us</span></a>
+			</li>
+			
+		</ul>
+		</div>
+	</div>	
+	
+	<div class="main-content">
+		<header>
+			<h2>
+				<label for="nav-toggle">
+					<span class="las la-bars"></span>
+				</label>
+				Dashboard
+			</h2>
+			
+			<div class="search-wrapper">
+				<span class="las la-search"></span>
+				<input type="search" placeholder="Search here" />
+			</div>
+			
+			<div class="user-wrapper">
+				<img src="icon.png" width="30px" height="30px" alt="">
+				<div>
+					<h4>John Doe</h4>
+					<small>Super admin</small>
+				</div>
+			</div>
+		</header>
+	</div>
+		
+	<section>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="box">
+			<div class="square" style="--i:0"></div>
+			<div class="square" style="--i:1"></div>
+			<div class="square" style="--i:2"></div>
+			<div class="square" style="--i:3"></div>
+			<div class="square" style="--i:4"></div>
+			<div class="container">
+				<div class="form">
+					
+				</div>
+			</div>
+		</div>
+				
+		<div class="box2">
+			<div class="square2" style="--i:0"></div>
+			<div class="square2" style="--i:1"></div>
+			<div class="square2" style="--i:2"></div>
+			<div class="square2" style="--i:3"></div>
+			<div class="square2" style="--i:4"></div>
+			<div class="container">
+				<div class="form">
+					<h2>Household</h2>
+					<form>
+						<div class="inputBox">
+							<input type="text" placeholder="Add Household Number">
+						</div>
+						<div class="inputBox">
+							<input type="text" placeholder="Monthly Household Contribution">
+						</div>
+						<div class="inputBox">
+							<input type="submit" value="Add">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</section> 
+</body>
+</html>
