@@ -129,12 +129,20 @@ function test_input($data){
 				<span>Downloadable Files</span></a>
 			</li>
 			
+			</ul>
+	
+		<ul style="position:absolute; bottom:0; ">
 			<li>
-				<a href="contact1.html"><span class="las la-user-circle"></span>
-				<span>Contact Us</span></a>
+				<a><span><em><b>Contact Us</b></em>
+				
+					<p style="color:white;	font-family: 'Poppins', sans-serif;font-size:60%;">
+						Phone number - 09X-XXX-XXXX<br>
+						Landline - XXX-XXXX<br>
+						Email- XXXXX@gmail.com<br>
+					</p>
+				</span></a>
 			</li>
-			
-		</ul>
+			</ul>
 		</div>
 	</div>	
 	
@@ -191,9 +199,9 @@ function test_input($data){
 						<div class="inputBox">
 							<input type="number" placeholder="Age" name="Age">
 						</div>
-						<br>
+						
 						<div class="inputbox">
-							  <p class="gender">Gender:</p>	 
+							  <p class="gender">Gender:</p>	 <br>
 							 <input type="radio" name="Gender" id="male" value="male">
 							<label for="male">Male</label><br>
 							
@@ -223,8 +231,8 @@ function test_input($data){
 						</div>
 						
 						<br>
-						<label for="Purok_id_Num">Purok ID: </label><br><br>
 						<select name="Purok_id_Num" id="select">
+							<option disabled hidden selected>Select your Purok</option>
 							<option value="1">Purok Mangga</option>
 							<option value="2">Purok Santol</option>
 							<option value="3">Purok Sampaguita</option>

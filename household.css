@@ -900,3 +900,13 @@ p.hh {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+select{
+	width: 100%;
+	background: rgba(255,255,255);
+	border: none;
+	border-radius:15px;
+	outline: none;
+	padding: 10px 20px;
+	font-family: 'Poppins', sans-serif;;
+}
