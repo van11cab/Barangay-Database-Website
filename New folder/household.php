@@ -181,8 +181,8 @@ function test_input($data){
 						</div>
 
 						<br>
-						<label for="Purok_id">Purok ID: </label><br>
 						<select name="Purok_id" id="select">
+							<option disabled hidden selected>Select your Purok</option>
 							<option value="1">Purok Mangga</option>
 							<option value="2">Purok Santol</option>
 							<option value="3">Purok Sampaguita</option>

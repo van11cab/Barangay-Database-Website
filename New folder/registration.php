@@ -199,9 +199,9 @@ function test_input($data){
 						<div class="inputBox">
 							<input type="number" placeholder="Age" name="Age">
 						</div>
-						<br>
+						
 						<div class="inputbox">
-							  <p class="gender">Gender:</p>	 
+							  <p class="gender">Gender:</p>	 <br>
 							 <input type="radio" name="Gender" id="male" value="male">
 							<label for="male">Male</label><br>
 							
@@ -231,8 +231,8 @@ function test_input($data){
 						</div>
 						
 						<br>
-						<label for="Purok_id_Num">Purok ID: </label><br><br>
 						<select name="Purok_id_Num" id="select">
+							<option disabled hidden selected>Select your Purok</option>
 							<option value="1">Purok Mangga</option>
 							<option value="2">Purok Santol</option>
 							<option value="3">Purok Sampaguita</option>
