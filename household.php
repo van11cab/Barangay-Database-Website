@@ -75,38 +75,39 @@ function test_input($data){
 <body>
 	<input type="checkbox" id="nav-toggle">
 	<div class= "sidebar">
-		<div class="sidebar-brand">
-			<h2><span class="lab la-accusoft"></span> <span>Barangay Ambot</span></h2>
+		<div class="sidebar-brand" style="shite-space:no-wrap;">
+			<span></span><h2> <span><img src="img\pointlogo.png" width="40px">Barangay Ambot</span></h2>
 		</div>
 		
 		<div class = "sidebar-menu">
-		<ul>
-			<li>  
-				<a href="index.html" class="active"><span class="las la-igloo"></span>
-				<span>Dashboard	</span></a>
-			</li>
+			<ul>
 		
-			<li>
-				<a href="household.php"><span class="las la-laptop"></span>
-				<span>Registration</span></a>
-			</li>
-						
-			<li>
-				<a href="profile1.html"><span class="las la-users"></span>
-				<span>Profile Page</span></a>
+			<li>  
+				<a href="index.html" class="active"><span></span>
+				<span><img src="img/menu.png" width="25px">&nbsp&nbsp Dashboard	</span></a>
 			</li>
 			
 			<li>
-				<a href=""><span class="las la-clipboard-list"></span>
-				<span>Barangay Information</span></a>
+				<a href="household.php"><span></span>
+				<span><img src="img/reg.gif" width="25px"> &nbspRegistration</span></a>
+			</li>
+
+			<li>
+				<a href="profile1.html"><span></span>
+				<span><img src="img/profile.png" width="25px"> &nbspProfile Page</span></a>
+			</li>
+			
+			<li>
+				<a href="barangay_info.html"><span></span>
+				<span><img src="img/barangay_info.png" width="25px"> &nbspBarangay Information</span></a>
 			</li>
 		
 			<li>
-				<a href="dl1.html"><span class="las la-receipt"></span>
-				<span>Downloadable Files</span></a>
+				<a href="dl1.html"><span></span>
+				<span> <img src="img/download.png" width="25px"> &nbspDownloadable Files</span></a>
 			</li>
-					
-		</ul>
+			
+			</ul>
 	
 		<ul style="position:absolute; bottom:0; ">
 			<li>
