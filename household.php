@@ -76,35 +76,36 @@ function test_input($data){
 	<input type="checkbox" id="nav-toggle">
 	<div class= "sidebar">
 		<div class="sidebar-brand" style="shite-space:no-wrap;">
-			<span></span><h2> <span><img src="img\pointlogo.png" width="40px">Barangay Ambot</span></h2>
+			<span></span><h2><img src="img\pointlogo.png" width="40px"> <span>Barangay Ambot</span></h2>
 		</div>
+		
 		
 		<div class = "sidebar-menu">
 			<ul>
 		
 			<li>  
 				<a href="index.html" class="active"><span></span>
-				<span><img src="img/menu.png" width="25px">&nbsp&nbsp Dashboard	</span></a>
+				<img src="img/menu.png" width="25px"><span>&nbsp&nbsp Dashboard	</span></a>
 			</li>
 			
 			<li>
 				<a href="household.php"><span></span>
-				<span><img src="img/reg.gif" width="25px"> &nbspRegistration</span></a>
+				<img src="img/reg.gif" width="25px"><span> &nbspRegistration</span></a>
 			</li>
 
 			<li>
 				<a href="profile1.html"><span></span>
-				<span><img src="img/profile.png" width="25px"> &nbspProfile Page</span></a>
+				<img src="img/profile.png" width="25px"><span> &nbspProfile Page</span></a>
 			</li>
 			
 			<li>
 				<a href="barangay_info.html"><span></span>
-				<span><img src="img/barangay_info.png" width="25px"> &nbspBarangay Information</span></a>
+				<img src="img/barangay_info.png" width="25px"> <span>&nbspBarangay Information</span></a>
 			</li>
 		
 			<li>
 				<a href="dl1.html"><span></span>
-				<span> <img src="img/download.png" width="25px"> &nbspDownloadable Files</span></a>
+				<img src="img/download.png" width="25px"><span>  &nbspDownloadable Files</span></a>
 			</li>
 			
 			</ul>
@@ -134,16 +135,10 @@ function test_input($data){
 				Dashboard
 			</h2>
 			
-			<div class="search-wrapper">
-				<span class="las la-search"></span>
-				<input type="search" placeholder="Search here" />
-			</div>
-			
 			<div class="user-wrapper">
-				<img src="icon.png" width="30px" height="30px" alt="">
 				<div>
-					<h4>John Doe</h4>
-					<small>Super admin</small>
+					<h4>Log in</h4>
+					<small>for Admin</small>
 				</div>
 			</div>
 		</header>
@@ -157,8 +152,7 @@ function test_input($data){
 			<div class="square" style="--i:0"></div>
 			<div class="square" style="--i:1"></div>
 			<div class="square" style="--i:2"></div>
-			<div class="square" style="--i:3"></div>
-			<div class="square" style="--i:4"></div>
+
 			<div class="container">
 				<div class="form">
 					
@@ -174,7 +168,7 @@ function test_input($data){
 			<div class="square2" style="--i:4"></div>
 			<div class="container">
 				<div class="form">
-					<h2>Household</h2>
+					<h2 style="color:#696969;">Household</h2>
 					<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 						
 						<div class="inputBox">
@@ -192,7 +186,7 @@ function test_input($data){
 						</select>
 											
 						<div class="inputBox">
-							<input type="number" placeholder="Monthly Household Contribution"  name="h_contribution">
+							<input type="number" placeholder="Monthly Household Income"  name="h_contribution">
 						</div>
 						
 						<div class="inputBox">
