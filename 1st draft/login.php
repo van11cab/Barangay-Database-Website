@@ -12,7 +12,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'Log In'){
 	if($conn){
 		echo 'success';
 		//to be changed to another page to edit database
-		header('Location: edits.php', TRUE, 303);
+		header('Location: http://localhost/phpmyadmin/index.php', TRUE, 303);
 		prompt("Success");
 	}
 	else{
