@@ -170,7 +170,7 @@ main {
 
 .cards {
 	display: grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(2,1fr);
 	grid-gap: 2rem;
 	margin-top: 1rem;
 }
@@ -355,6 +355,7 @@ body{
 }
 
 .main{ 
+	border:none;
 	margin-top: 100px;
 	margin-left: 700px;
     background-color: #406b15;
@@ -416,9 +417,11 @@ hr {
 
 .other{
     padding-top: 10px;
+	overflow-y:hidden;
 }
 
 .moreinfo {
+	width:100%;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -432,11 +435,13 @@ hr {
     background-color: #fff; 
     color: black; 
     border: 2px solid #9AAE09;
+	transition:.2s all ease-in;
 }
 
 .moreinfo:hover{
     background-color: #9AAE09;
     color: #fff;
+	transition:.2s all ease-in;
 }
 
 .sulod {
@@ -564,4 +569,14 @@ img.download{
 
 .content-table tbody td.tunga {
 	text-align:center;
+}
+
+@keyframes intro{
+	0% {right:-200vw;}
+	100% {right:0px;}
+}
+
+@keyframes intro2{
+	0% {left:-200vw;}
+	100% {left:0px;}
 }

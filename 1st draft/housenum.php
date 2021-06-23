@@ -14,6 +14,7 @@ $conn = mysqli_connect($host, $user, $password, $db);
 
 if(isset($_POST['submit']) && $_POST['submit'] == 'Register'){
 	//echo 'register';
+	echo '<script>alert(entered);</script>';
 	$hh_num = test_input($_POST['hh_num']);
 	$h_contribution = test_input($_POST['h_contribution']);
 	$Purok_id = test_input($_POST['Purok_id']);
@@ -22,12 +23,15 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'Register'){
 
 	$sql = "INSERT INTO household(House_Num_plus_purok_id, Monthly_Contribution ) VALUES('$house_num_pid', $h_contribution)";
 	$result = mysqli_query($conn, $sql);
+	
+	
 	if($result){
-		header('Location: form.php', TRUE, 303);
+		header('Location: registration.php', TRUE, 303);
 		prompt("Success");
 	}
 	else{
-		//header('Location: form.php', TRUE, 303);
+		header('Location: registration.php', TRUE, 303);
+		echo '<script>alert(repeat);</script>';
 		echo 'query error: '. mysqli_error($conn);
 	}
 

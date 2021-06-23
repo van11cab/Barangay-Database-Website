@@ -11,7 +11,7 @@
 	<input type="checkbox" id="nav-toggle">
 	<div class= "sidebar">
 		<div class="sidebar-brand" style="shite-space:no-wrap;">
-			<span></span><h2> <span><img src="img\pointlogo.png" width="40px">Barangay Ambot</span></h2>
+			<span></span><h2><img src="img\pointlogo.png" width="40px"> <span>Barangay Ambot</span></h2>
 		</div>
 		
 		<div class = "sidebar-menu">
@@ -19,27 +19,27 @@
 		
 			<li>  
 				<a href="index.html" class="active"><span></span>
-				<span><img src="img/menu.png" width="25px">&nbsp&nbsp Dashboard	</span></a>
+				<img src="img/menu.png" width="25px"><span>&nbsp&nbsp Dashboard	</span></a>
 			</li>
 			
 			<li>
 				<a href="household.php"><span></span>
-				<span><img src="img/reg.gif" width="25px"> &nbspRegistration</span></a>
+				<img src="img/reg.gif" width="25px"><span> &nbspRegistration</span></a>
 			</li>
 
 			<li>
-				<a href="profile1.html"><span></span>
-				<span><img src="img/profile.png" width="25px"> &nbspProfile Page</span></a>
+				<a href="profile1.php"><span></span>
+				<img src="img/profile.png" width="25px"><span> &nbspProfile Page</span></a>
 			</li>
 			
 			<li>
 				<a href="barangay_info.html"><span></span>
-				<span><img src="img/barangay_info.png" width="25px"> &nbspBarangay Information</span></a>
+				<img src="img/barangay_info.png" width="25px"> <span>&nbspBarangay Information</span></a>
 			</li>
 		
 			<li>
 				<a href="dl1.html"><span></span>
-				<span> <img src="img/download.png" width="25px"> &nbspDownloadable Files</span></a>
+				<img src="img/download.png" width="25px"><span>  &nbspDownloadable Files</span></a>
 			</li>
 			
 			</ul>
@@ -65,20 +65,15 @@
 				<label for="nav-toggle">
 					<span class="las la-bars"></span>
 				</label>
-				Dashboard
+				Barangay Database
 			</h2>
 			
-			<div class="search-wrapper">
-				<span class="las la-search"></span>
-				<input type="search" placeholder="Search here" />
-			</div>
-			
 			<div class="user-wrapper">
-				<img src="icon.png" width="30px" height="30px" alt="">
+				<a href="login_admin.php">
 				<div>
-					<h4>John Doe</h4>
-					<small>Super admin</small>
-				</div>
+					<h4>Log in</h4>
+					<small>for Admin</small>
+				</div></a>
 			</div>
 		</header>
 		
@@ -91,29 +86,9 @@
 						<span>Residents</span>
 					</div>
 					<div>
-						<span class="las la-users"></span>
+						<span><img src="img/profilegreen.png" width="50px"></span>
 					</div>
-				</div>
-				
-				<div class="card-single">
-					<div>
-						<h1>79</h1>
-						<span>Downloadable Files</span>
-					</div>
-					<div>
-						<span class="las la-clipboard"></span>
-					</div>
-				</div>
-				
-				<div class="card-single">
-					<div>
-						<h1>124</h1>
-						<span>Requested Files</span>
-					</div>
-					<div>
-						<span class="las la-shopping-bag"></span>
-					</div>
-				</div>
+				</div>				
 				
 				<div class="card-single">
 					<div>
@@ -130,96 +105,11 @@
 				<div class="projects">
 					<div class="card">
 						<div class="card-header">
-							<h3>Recent Requests</h3>
-							
-							<button>See all <span class="las la-arrow-right">
-							</span></button>
+							<h3>Barangay News</h3>
 						</div>
 						<div class="card-body">
-							<div class="table-responsive">
-							<table width="100%">
-								<thead>
-									<tr>
-										<td>File</td>
-										<td>Purpose</td>
-										<td>Status</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>UI/UX Design</td>
-										<td>UI Team</td>
-										<td>
-											<span class="status purple"> </span>
-											review
-										</td>
-									</tr>
-									<tr>
-										<td>Web Development</td>
-										<td>Frontend</td>
-										<td>
-											<span class="status pink"> </span>
-											in progress
-										</td>
-									</tr>
-									<tr>
-										<td>Ushop app</td>
-										<td>Mobile Team</td>
-										<td>
-											<span class="status orange"> </span>
-											pending
-										</td>
-									</tr>
-									<tr>
-										<td>UI/UX Design</td>
-										<td>UI Team</td>
-										<td>
-											<span class="status purple"> </span>
-											review
-										</td>
-									</tr>
-									<tr>
-										<td>Web Development</td>
-										<td>Frontend</td>
-										<td>
-											<span class="status pink"> </span>
-											in progress
-										</td>
-									</tr>
-									<tr>
-										<td>Ushop app</td>
-										<td>Mobile Team</td>
-										<td>
-											<span class="status orange"> </span>
-											pending
-										</td>
-									</tr>
-									<tr>
-										<td>UI/UX Design</td>
-										<td>UI Team</td>
-										<td>
-											<span class="status purple"> </span>
-											review
-										</td>
-									</tr>
-									<tr>
-										<td>Web Development</td>
-										<td>Frontend</td>
-										<td>
-											<span class="status pink"> </span>
-											in progress
-										</td>
-									</tr>
-									<tr>
-										<td>Ushop app</td>
-										<td>Mobile Team</td>
-										<td>
-											<span class="status orange"> </span>
-											pending
-										</td>
-									</tr>
-								</tbody>
-							</table>
+							<div class="table-responsive" width="100%" style="padding:5px;">
+								<p>lorem ipsum</p>
 							</div>
 						</div>
 					</div>
@@ -228,87 +118,36 @@
 				<div class="customers">
 					<div class="card">
 						<div class="card-header">
-							<h3>New customer</h3>
-							
-							<button>See all <span class="las-la-arrow-right">
-							</span></button>
+							<h3>Barangay Officials</h3>
 						</div>
 						<div class="card-body">
 						
 							<div class="customer">
 								<div class ="info">
-								<img src="icon.png" width="40px" height="40px" alt="">
+								
 									<div>
 										<h4>Lewis S. Cunningham</h4>
 										<small>CEO Excerpt</small>
 									</div>
 								</div>
-								<div class="contact">
-									<span class="las la-user-circle"></span>
-									<span class="las la-comment"></span>
-									<span class="las la-phone"></span>
-								</div>
+
 							</div>
 							
 							<div class="customer">
 								<div class="info">
-								<img src="icon.png" width="40px" height="40px" alt="">
+								
 									<div>
 										<h4>Lewis S. Cunningham</h4>
 										<small>CEO Excerpt</small>
 									</div>
 								</div>
-								<div class="contact">
-									<span class="las la-user-circle"></span>
-									<span class="las la-comment"></span>
-									<span class="las la-phone"></span>
-								</div>
+
 							</div>
 							
-							<div class="customer">
-								<div class="info">
-								<img src="icon.png" width="40px" height="40px" alt="">
-									<div>
-										<h4>Lewis S. Cunningham</h4>
-										<small>CEO Excerpt</small>
-									</div>
-								</div>
-								<div class="contact">
-									<span class="las la-user-circle"></span>
-									<span class="las la-comment"></span>
-									<span class="las la-phone"></span>
-								</div>
-							</div>
 							
-							<div class="customer">
-								<div class="info">
-								<img src="icon.png" width="40px" height="40px" alt="">
-									<div>
-										<h4>Lewis S. Cunningham</h4>
-										<small>CEO Excerpt</small>
-									</div>
-								</div>
-								<div class="contact">
-									<span class="las la-user-circle"></span>
-									<span class="las la-comment"></span>
-									<span class="las la-phone"></span>
-								</div>
-							</div>
 							
-							<div class="customer">
-								<div class="info">
-								<img src="icon.png" width="40px" height="40px" alt="">
-									<div>
-										<h4>Lewis S. Cunningham</h4>
-										<small>CEO Excerpt</small>
-									</div>
-								</div>
-								<div class="contact">
-									<span class="las la-user-circle"></span>
-									<span class="las la-comment"></span>
-									<span class="las la-phone"></span>
-								</div>
-							</div>
+							
+							
 							
 						</div>
 					</div>
