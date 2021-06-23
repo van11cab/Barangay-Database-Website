@@ -116,7 +116,7 @@ header {
 }
 	
 header h2 {
-	color: #222;
+	color: 	#696969;
 }
 
 header label span {
@@ -763,7 +763,7 @@ section .color:nth-child(3) {
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: #fff;
+	color: black;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
@@ -800,7 +800,7 @@ section .color:nth-child(3) {
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 	font-size: 16px;
 	letter-spacing: 1px;
-	color: #00000;
+	color: rgba(0, 0, 0, 1);
 	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 

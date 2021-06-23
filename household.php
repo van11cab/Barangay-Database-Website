@@ -174,7 +174,7 @@ function test_input($data){
 			<div class="square2" style="--i:4"></div>
 			<div class="container">
 				<div class="form">
-					<h2>Household</h2>
+					<h2 style="color:#696969;">Household</h2>
 					<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 						
 						<div class="inputBox">
@@ -192,7 +192,7 @@ function test_input($data){
 						</select>
 											
 						<div class="inputBox">
-							<input type="number" placeholder="Monthly Household Contribution"  name="h_contribution">
+							<input type="number" placeholder="Monthly Household Income"  name="h_contribution">
 						</div>
 						
 						<div class="inputBox">
